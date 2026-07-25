@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitZone Gym</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<h2>FitZone</h2>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+<h1>Welcome to FitZone Gym</h1>
+<p>Train Hard • Stay Fit • Be Healthy</p>
+<button onclick="join()">Join Now</button>
+</section>
+
+<section>
+<h2>BMI Calculator</h2>
+
+<input type="number" id="height" placeholder="Height (cm)">
+<input type="number" id="weight" placeholder="Weight (kg)">
+<button onclick="bmi()">Calculate</button>
+
+<h3 id="result"></h3>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+
+<input type="text" id="name" placeholder="Name">
+<input type="email" id="email" placeholder="Email">
+<button onclick="send()">Send</button>
+
+<p id="msg"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
