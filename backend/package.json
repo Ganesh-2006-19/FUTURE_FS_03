@@ -1,0 +1,15 @@
+{
+  "name": "gym-backend",
+  "version": "1.0.0",
+  "description": "Backend for Gym Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ganesh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
